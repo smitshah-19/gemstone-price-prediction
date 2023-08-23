@@ -46,3 +46,10 @@ Auzre Link: [https://1gemstonepriceprediction.azurewebsites.net/](https://1gemst
 5. Flask App creation : 
     * Flask app is created with User Interface to predict the gemstone prices inside a Web Application.
   
+# Exploratory Data Analysis Notebook
+
+Link : [EDA Notebook](./notebook/1_EDA_Gemstone_Price_Prediction.ipynb)
+
+# Model Training Approach Notebook
+
+Link : [Model Training Notebook](./notebook/2_Model_Training_Gemstone.ipynb)
