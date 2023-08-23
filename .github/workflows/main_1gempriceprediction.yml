@@ -60,4 +60,5 @@ jobs:
         with:
           app-name: '1gempriceprediction'
           slot-name: 'Production'
+          using: 'node16'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_232F1D98036F47308E3C8ACFC4F1041A }}
