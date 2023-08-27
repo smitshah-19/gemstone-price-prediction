@@ -10,7 +10,7 @@ The goal of the project is to predict the ***price*** of a given diamond (Regres
 - `Table`:  The Width of the cubic zirconia's Table expressed as a Percentage of its Average Diameter.
 - `X`:  Length of the cubic zirconia in mm.
 - `Y`:  Width of the cubic zirconia in mm.
-- `Z:  Height of the cubic zirconia in mm.
+- `Z`:  Height of the cubic zirconia in mm.
 
 Target variable:
 - `Price`:  The Price of the cubic zirconia.
