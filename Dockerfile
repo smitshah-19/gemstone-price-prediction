@@ -1,6 +1,7 @@
-FROM python:3.11
-COPY . /app
+FROM python:3.11.4-slim
 WORKDIR /app
+COPY requirements.txt .
 RUN pip install -r requirements.txt
-EXPOSE $PORT
-CMD ["python", "app.py"]
+COPY . .
+EXPOSE 5000
+CMD ["python", "app.py"]    
