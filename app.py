@@ -11,6 +11,7 @@ app = application
 def home_page():
     return render_template('index.html')
 
+#This is a comment
 @app.route('/predict',methods=['GET','POST'])
 @cross_origin()
 def predict_datapoint():
